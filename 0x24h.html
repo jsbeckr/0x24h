@@ -3,13 +3,25 @@
 </head>
 
 <body>
-  {{> hello}}
+  {{> logo}}
+  {{> menu}}
+  {{> main}}
 </body>
 
-<template name="hello">
-  <div class="hello">
-    <h1>Hello World!</h1>
-    {{greeting}}
-    <input type="button" value="Click" />
-  </div>
+<template name="logo">
+	<div class="logo">
+		<h1>Include LOGO here!</h1>
+	</div>
+</template>
+
+<template name="menu">
+	<div class="menu">
+		<p>Link1 | Link2 | Link3</p>
+	</div>
+</template>
+
+<template name="main">
+	<div class="main">
+		<h2>Include content here! :D</h2>
+	</div>
 </template>
